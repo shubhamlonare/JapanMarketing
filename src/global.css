@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: #F2F2F2 !important;
+}
+
+@media screen and (max-width: 600px) {
+  #cardContent{
+   display:none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #checkbox{
+   flex-direction: row;
+   justify-content: end;
+  }
+}
+
+
+:root {
+  /* fonts */
+  --material-theme-body-medium: Roboto;
+
+  /* font sizes */
+  --material-theme-body-medium-size: 14px;
+  --material-theme-body-small-size: 12px;
+  --font-size-lg: 18px;
+  --material-theme-title-medium-size: 16px;
+  --material-theme-headline-small-size: 24px;
+
+  /* Colors */
+  --background: #f3f3f3;
+  --color-whitesmoke-100: #f2f2f2;
+  --white: #fff;
+  --lightgray: #dbdbe0;
+  --red: #bd0017;
+  --darkgray: #757575;
+  --black: #222;
+  --surface-overlay: rgba(33, 33, 33, 0.08);
+  --light-text-secondary: rgba(0, 0, 0, 0.6);
+  --light-other-outlined-border-23p: rgba(0, 0, 0, 0.23);
+  --light-text-primary: rgba(0, 0, 0, 0.87);
+  --color-gray-100: rgba(255, 255, 255, 0.87);
+  --blue: #0a7ebf;
+  --color-steelblue-100: rgba(10, 126, 191, 0.08);
+  --color-lightgray: #c4d5de;
+  --color-royalblue-100: #677cef;
+  --color-royalblue-200: #4157ce;
+  --color-midnightblue: #1c31a1;
+  --color-mediumpurple: #9358c2;
+  --color-blueviolet: #6a00bd;
+  --bluegray: #808a9f;
+  --gray: #b3b3b3;
+  --light-primary-main: #1976d2;
+  --light-primary-shades-50p: rgba(25, 118, 210, 0.5);
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+  --gap-13xl: 32px;
+  --gap-mid: 17px;
+  --gap-12xs: 1px;
+  --gap-21xl: 40px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-7xs: 6px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-9xs: 4px;
+  --padding-2xs: 11px;
+  --padding-xl: 20px;
+  --padding-lg: 18px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-base: 16px;
+  --br-11xs: 2px;
+}
