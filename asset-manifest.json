@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/japanmarketing/static/css/main.6f091c84.css",
+    "main.js": "/japanmarketing/static/js/main.9ffcaae8.js",
+    "static/js/787.2d643369.chunk.js": "/japanmarketing/static/js/787.2d643369.chunk.js",
+    "index.html": "/japanmarketing/index.html",
+    "main.6f091c84.css.map": "/japanmarketing/static/css/main.6f091c84.css.map",
+    "main.9ffcaae8.js.map": "/japanmarketing/static/js/main.9ffcaae8.js.map",
+    "787.2d643369.chunk.js.map": "/japanmarketing/static/js/787.2d643369.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f091c84.css",
+    "static/js/main.9ffcaae8.js"
+  ]
+}
